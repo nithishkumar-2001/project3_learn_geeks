@@ -49,8 +49,9 @@ body {
 }
 .bgcolor{
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     height: 80%;
+    margin-left: 70px;
 
 }
 
@@ -114,5 +115,13 @@ body {
     .center{
         width: 100%;
     }
+    .bgcolor{
+        margin-left: 50px !important;
+    }
     
+}
+@media (max-width:776px) {
+ .bgcolor{
+    margin-left: 18px !important;
+ }   
 }
